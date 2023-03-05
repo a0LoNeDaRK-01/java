@@ -1,26 +1,27 @@
 public class arrays {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        String[] ogrenciler = new String[4];
-        ogrenciler[0] = "ENES";
-        ogrenciler[1] = "EMİR";
-        ogrenciler[2] = "METE";
-        ogrenciler[3] = "İSMAİL";
+       /* String[] ogrenciler = new String[3];
+        ogrenciler[0] = "Engin";
+        ogrenciler[1] = "Derin";
+        ogrenciler[2] = "Salih"; */
 
-        int i;
+        //Yukarıdaki kodu comment etmemin sebebi Alttaki tanımın kod icin daha uygun olmasıdır!..
 
-        for(i = 0;i <ogrenciler.length;i++) {
+        String[] ogrenciler = {"Engin","Derin","Salih"};
+
+        for (int i=0;i< ogrenciler.length;i++){
 
             System.out.println(ogrenciler[i]);
 
-            }
- System.out.println("    " +
-         "    ");
-            for(String ogrenci:ogrenciler) {
-
-                System.out.println(ogrenci);
-
-            }
         }
+        System.out.println("----------------------------------"); //Alttaki sekil daha iyi tabii ki!..
+        for (String ogrenci:ogrenciler){
+            System.out.println(ogrenci);
+        }
+
+
     }
+
+}
